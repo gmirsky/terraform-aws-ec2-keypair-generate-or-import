@@ -26,13 +26,13 @@ DO NOT USE!
 
 ## Outputs
 
-| Name | Description |
-|------|-------------|
-| key_name | Name of SSH key |
-| private_key | Content of the generated private key |
-| private_key_filename | Private Key Filename |
-| public_key | Content of the generated public key |
-| public_key_filename | Public Key Filename |
+| Name | Description | Sensitive |
+|------|-------------|-----------|
+| key_name | Name of SSH key | no |
+| private_key | Content of the generated private key | no |
+| private_key_filename | Private Key Filename | yes |
+| public_key | Content of the generated public key | no |
+| public_key_filename | Public Key Filename | no |
 
 
 
