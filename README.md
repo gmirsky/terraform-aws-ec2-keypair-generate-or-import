@@ -27,10 +27,10 @@ DO NOT USE!
 ## Outputs
 
 | Name | Description | Sensitive |
-|------|-------------|-----------|
+|------|-------------|:---------:|
 | key_name | Name of SSH key | no |
-| private_key | Content of the generated private key | no |
-| private_key_filename | Private Key Filename | yes |
+| private_key | Content of the generated private key | yes |
+| private_key_filename | Private Key Filename | no |
 | public_key | Content of the generated public key | no |
 | public_key_filename | Public Key Filename | no |
 
